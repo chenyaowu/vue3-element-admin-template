@@ -62,7 +62,6 @@ declare module '@vue/runtime-core' {
     IEpSetting: typeof import('~icons/ep/setting')['default']
     IEpTop: typeof import('~icons/ep/top')['default']
     IEpUploadFilled: typeof import('~icons/ep/upload-filled')['default']
-    LangSelect: typeof import('./../components/LangSelect/index.vue')['default']
     MultiUpload: typeof import('./../components/Upload/MultiUpload.vue')['default']
     Pagination: typeof import('./../components/Pagination/index.vue')['default']
     RightPanel: typeof import('./../components/RightPanel/index.vue')['default']
