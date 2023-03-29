@@ -3,7 +3,6 @@ import { computed, watchEffect } from 'vue';
 import { useWindowSize } from '@vueuse/core';
 import { AppMain, Navbar, Settings, TagsView } from './components/index';
 import Sidebar from './components/Sidebar/index.vue';
-import RightPanel from '@/components/RightPanel/index.vue';
 
 import { useAppStore } from '@/store/modules/app';
 import { useSettingsStore } from '@/store/modules/settings';
@@ -73,11 +72,6 @@ function handleOutsideClick() {
 
       <!--主页面-->
       <app-main />
-
-      <!-- 设置面板 -->
-      <RightPanel v-if="showSettings">
-        <settings />
-      </RightPanel>
     </div>
   </div>
 </template>

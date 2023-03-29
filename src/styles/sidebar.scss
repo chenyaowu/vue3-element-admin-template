@@ -60,6 +60,12 @@
       border: none;
       height: 100%;
       width: 100% !important;
+
+      .el-menu-item.is-active{
+        background-color: $subMenuHover !important;
+        color: $menuText;
+        border-radius: 5px;
+      }
     }
 
     // menu hover
@@ -69,17 +75,15 @@
       }
     }
 
-    .is-active>.el-sub-menu__title {
-      color: $subMenuActiveText !important;
-    }
 
     & .nest-menu .el-sub-menu>.el-sub-menu__title,
     & .el-sub-menu .el-menu-item {
       min-width: $sideBarWidth !important;
-      background-color: $subMenuBg !important;
+      background-color: $subMenuBg ;
 
       &:hover {
         background-color: $subMenuHover !important;
+        border-radius: 5px;
       }
     }
   }
