@@ -71,7 +71,6 @@ declare module '@vue/runtime-core' {
     SingleUpload: typeof import('./../components/Upload/SingleUpload.vue')['default']
     SizeSelect: typeof import('./../components/SizeSelect/index.vue')['default']
     SvgIcon: typeof import('./../components/SvgIcon/index.vue')['default']
-    WangEditor: typeof import('./../components/WangEditor/index.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']
