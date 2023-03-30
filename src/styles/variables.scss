@@ -3,12 +3,22 @@
 :root{
   --menuBg:#21252b;
   --menuText:#f4f4f5;
+  --subMenuBg: #21252b;
+
+
+  // 平台端
   --menuActiveText:#409eff;
   --menuHover:#409eff;
-
-  --subMenuBg: #21252b;
   --subMenuActiveText: #409eff;
   --subMenuHover: #409eff;
+
+
+  // 用户端
+  // --menuActiveText:#44B549;
+  // --menuHover:#44B549;
+  // --subMenuActiveText: #44B549;
+  // --subMenuHover: #44B549;
+  // document.documentElement.style.setProperty('--el-color-primary', color);
 
 }
 

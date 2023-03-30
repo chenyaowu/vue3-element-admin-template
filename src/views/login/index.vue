@@ -6,11 +6,6 @@
       :rules="loginRules"
       class="login-form"
     >
-      <div class="flex text-white items-center py-4">
-        <span class="text-2xl flex-1 text-center">vue3-element-admin</span>
-        <lang-select style="color: #fff" />
-      </div>
-
       <el-form-item prop="username">
         <div class="p-2 text-white">
           <svg-icon icon-class="user" />
